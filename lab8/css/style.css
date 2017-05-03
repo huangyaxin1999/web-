@@ -1,0 +1,43 @@
+body{
+	font-size: 12px;
+	font-family: Arial;
+	color:#727272;
+	line-height: 2em;	
+}
+a{
+	color: #727272;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.menu{
+	font-size: 14px;
+	font-weight: bolder;
+	color: #b9f605;
+}
+.menu a{
+	color:white;
+}
+.menu a:hover{
+	color:#b9f605;
+	text-decoration: none;
+}
+.menu .special{
+	color:#fdb306;
+}
+ul{
+	list-style-type: none;
+}
+.no1{
+ 	background-image: url(images/bg.gif);
+ 	 	background-position: center;
+ }
+ .no2{
+ 	background-image: url(images/banner.jpg);
+ }
+ .no3{
+ 	background-image: url(images/foot_bg.gif);
+ 	background-position: center;
+ 	height: 70px;
+ }
