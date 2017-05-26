@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>书法家协会</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style type="text/css">
+	    #back{
+	    	background-image:url(images/back.png);
+	    }
+		#header{
+			height: 205px;
+			background-image: url(images/bg.gif);
+			background-position:center;
+			background-repeat:no-repeat;
+		}
+		#content{
+			width: 1200px;
+			height: 800px;
+		}
+		#banner{
+			width:1000px;
+			height:164px;
+			margin: 0 auto;
+		}
+		#nav{
+			height:40px;
+			background-image:url(images/nav.jpg);
+			text-align: center;
+		}
+		#nav1{
+			position:relative;
+			width:1000px;
+			height: 40px;
+			margin:auto;
+			margin-left:%50;
+		}
+		#nav_content{
+			width:800px;
+			float:left;
+			font-size: 1.1em;
+		}
+		#nav_search{
+			width:143px;
+			float:left;
+			line-height:40px;
+		}
+		#nav_search1{
+			float:left;
+			line-height:41px;
+		}
+		#content{
+			width:1000px;
+			margin:0 auto;
+		}
+		#content_top{
+			margin:0 auto;
+			overflow:hidden;
+		}
+		#news_pic{
+			width:324px;
+			height:243px;
+			background-image:url(images/news_bg.png);
+			background-repeat:no-repeat;
+			float:left;
+			text-align: center;
+			padding-top:15px;
+			margin-top:20px;
+		}
+		#news_list{
+			width:330px;
+			margin-left:20px;
+			float:left;
+			padding-top: 20px;
+			font-size: 12px;
+		}
+		.span{   
+			float:right;
+		}
+		#news_announce{
+			width:277px;
+			margin-top:20px;
+			float:left;
+			margin-left: 30px;
+		}
+		#news_announce1{
+			width: 285px;
+			height: 210px;
+			background-image: url(images/board_bg.png);
+			background-repeat: no-repeat;
+			font-size: 10px;
+		}
+		#news_announce2{
+			text-align: center;
+		}
+		li{
+			line-height:30px;
+		}
+		#content_bottom_left{
+			width: 700px;
+			display:inline;
+			float:left;
+		}
+		.academic{
+			width: 340px;
+			height: 240px;
+			float: left;
+		}
+		.academic1{
+			width: 340px;
+			float:left
+			font-size: 12px;
+		}
+		.academic2{
+			width: 340px;
+			height: 54px;
+			background-image:url(images/academic.png);
+			background-repeat: no-repeat;
+		}
+		.book_news{
+			width: 340px;
+			float: left;
+		}
+		.book_news1{
+			width: 340px;
+			float:left;
+			font-size: 12px
+			margin-left:20px;
+		}
+		.book_news2{
+			width: 340px;
+			height: 54px;
+			background-image:url(images/book_news.png);
+			background-repeat: no-repeat;
+		}
+		.fengcai{
+			width: 700px;
+
+		}
+		.fengcai1{
+			width: 680px;
+			height: 50px;
+			background-image: url(images/fengcai_bg1.png);
+			background-repeat: no-repeat;
+			clear: both;
+		}
+
+		.fengcai2{
+			width: 636px;
+			height: 136px;
+			background-image: url(images/fengcai_bg2.png);
+			background-repeat: no-repeat;
+			padding:20px;
+			clear: both;
+			text-align: center;
+		}
+		#content_bottom_right{
+			width: 280px;
+			height: 500px;
+			float: left;
+			text-align: center;
+			display: inline;
+		}
+		#content_bottom_right1{
+			height: 25px;
+			margin-top: 15px;
+			margin-bottom: 0px;
+			background-image:url(images/show.png);
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+		#content_bottom_right2{
+			margin-top: 20px;
+			width: 280px;
+			height: 500px;
+			background-image: url(images/show_bg.png);
+			background-repeat: no-repeat;
+			background-size: 280px 420px;
+			font-size: 1.05em;
+		}
+		#footer{
+			height: 140px;
+			background-image: url(images/foot.gif);
+			text-align:center;
+		}
+	</style>
+</head>
+<body>
+<div id="back">
+	<div id="header">
+		<div id="banner">
+			<img src="images/logo.png" style="margin-left:100px;margin-top:40px">
+		</div>
+		<div id="nav">
+			<div id="nav1">
+				<div id="nav_content" class="menu">
+					<a href="#" class="one">首页</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+					<a href="#" class="menu">中心概况</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+					<a href="#" class="menu">培训动态</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+					<a href="#" class="menu">学术争鸣</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+					<a href="#" class="menu">书坛新闻</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+					<a href="#" class="menu">名家展厅</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+					<a href="#" class="menu">燕赵风采</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+					<a href="#" class="menu">经典解读与示范</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+					<a href="#" class="menu">语言互动</a>
+				</div>
+				<div id="nav_search"> 
+				<form>
+					<input type="text" name="search" class="kuang">
+				</form>
+				</div>
+				<div id="nav_search1">
+					<form>
+						<input type="button" name=" "value="搜索" class="ang">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="content">
+		<div id="content_top">
+			<div id="news_pic">
+				<img src="images/news.jpg" width="300" height="200"><br/>
+				“曲径通幽”书写人生传奇
+			</div>
+			<div id="news_list">
+				<img src="images/change.png">
+				<span class="span"><img src="images/more.png"></span>
+				<ul>
+					<li>榛·妙--谢云、苏士澎在北京雍......<span class="span">[04-25]</span></li>
+					<li>“守望相助·尽责圆梦”中国书法家协会创作活...<span class="span">[04-25]</span></li>
+					<li>中国书法出版传媒有限责任公司问共和<span class="span">[04-25]</span></li>
+					<li>“中国书法之乡”命名授牌仪式在河南省郏县举行<span class="span">[04-25]</span></li>
+					<li>中国文学博物馆馆藏淑华精品展暨中国字<span class="span">[04-25]</span></li>
+					<li>第一届兰亭学校师生书法作品展获奖、入展名单<span class="span">[04-25]</span></li>
+					<li>第25届中日友好自作诗书交流展<span class="span">[04-25]</span></li>
+				</ul>
+			</div>
+			<div id="news_announce">
+				<div id="news_announce2">
+					<img src="images/board.png">
+				</div>
+				<div id="news_announce1">
+					<ul>
+						<li>榛·妙--谢云、苏士澎在北京雍......</li>
+						<li>“守望相助·尽责圆梦”中国书法家协会创作活...</li>
+						<li>中国书法出版传媒有限责任公司问共和</li>
+						<li>“中国书法之乡”命名授牌仪式在河南省郏县举行</li>
+						<li>中国文学博物馆馆藏淑华精品展暨中国字</li>
+						<li>第一届兰亭学校师生书法作品展获奖、入展名单</li>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="content_bottom_left">
+			<div class="academic">
+				<div class="academic1">
+					<div class="academic2">
+						<span class="span"><img src="images/more.png"></span>
+					</div>
+					<ul>
+						<li>榛·妙--谢云、苏士澎在北京雍......<span class="span">[2015-04-25]</span></li>
+						<li>“守望相助·尽责圆梦”中国书法家协会创作活...<span class="span">[2015-04-25]</span></li>
+						<li>中国书法出版传媒有限责任公司问共和<span class="span">[2015-04-25]</span></li>
+						<li>“中国书法之乡”命名授牌仪式在河南省郏县举行<span class="span">[2015-04-25]</span></li>
+						<li>中国文学博物馆馆藏淑华精品展暨中国字<span class="span">[2015-04-25]</span></li>
+					</ul>
+				</div>
+			</div>
+			<div class="book_news">
+				<div class="book_news1">
+					<div class="book_news2">
+						<span class="span"><img src="images/more.png"></span>
+					</div>
+					<ul>
+						<li>榛·妙--谢云、苏士澎在北京雍......<span class="span">[2015-04-25]</span></li>
+						<li>“守望相助·尽责圆梦”中国书法家协会创作活...<span class="span">[2015-04-25]</span></li>
+						<li>中国书法出版传媒有限责任公司问共和<span class="span">[2015-04-25]</span></li>
+						<li>“中国书法之乡”命名授牌仪式在河南省郏县举行<span class="span">[2015-04-25]</span></li>
+						<li>中国文学博物馆馆藏淑华精品展暨中国字<span class="span">[2015-04-25]</span></li>
+					</ul>
+				</div>
+			</div>
+			<div class="fengcai">
+				<div class="fengcai1">
+					<span class="span"><img src="images/more.png"></span>
+				</div>
+				<div class="fengcai2">
+							<a href="#"><img src="images/fengcai1.jpg"><img src="images/fengcai2.jpg"><img src="images/fengcai3.jpg"><img src="images/fengcai4.jpg"></a>
+				</div>
+			</div>
+		</div>
+		<div id="content_bottom_right">
+			<div id="content_bottom_right1">
+				
+			</div>
+			<div id="content_bottom_right2">
+			<br/>
+			<img src="images/mingjia.jpg" width="222px" >
+			<br/><br/>
+			&nbsp;欧阳中石，山东省肥城市人，著名文化学<br/>&nbsp;者、书法家、书法教育家。早年拜在京剧<br/>&nbsp;大师奚啸伯的门下。现任首都师范大学教<br/>授、博士生导师、中国书法文化研究所<br/>所长，北京唐风美术馆名誉馆长。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/><br/>
+			<span class="span"><img src="images/view.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<br/>
+		<a href="#" class="footer">电子邮箱</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="#" class="footer">设为首页</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="#" class="footer">在线调查</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="#" class="footer">加入收藏</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="#" class="footer">网站地图</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="#" class="footer">关于我们</a><br/>
+		<img src="images/line.jpg" width="800"><br/>
+		Copyright 2013-2014 Hebshufajia.com,All Rights Reserved<br/>
+		冀ICP备05067795号&nbsp;&nbsp;&nbsp;冀公网安备110402440008号
+	</div>
+</div>
+</body>
+</html>
