@@ -1,0 +1,124 @@
+html{
+	font-size: 12px;
+	color: #522a06;
+	font-family: '宋体';
+}
+body{
+	font-size: 12px;
+	background-image: url(../images/bodybg.gif);
+	background-repeat: repeat-x;
+}
+a{
+	color: #844004;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+ul{
+	list-style-type: none;
+}
+#header{
+	height: 205px;
+	background-position: center;
+    background-image: url(../images/bg.gif);
+	background-position: top;
+}
+#banner{
+	width:800px;
+	height: 164px;
+	background-position: center;
+	margin-top: 38px;
+    background-image: url(../images/logo.png);
+	margin-left: 25px;
+	background-repeat: no-repeat;
+}
+#nav{
+    height: 40px;
+    background-image: url(../images/nav.jpg);
+    background-position: center;
+}
+.nav_body{
+	width: 1000px;
+	background-position: center;
+}
+.nav_content{
+	width: 1000px;
+	color: #fff;
+	font-weight: bold;
+	float: left;
+	padding-top: 10px;
+    margin-left:250px; 
+}
+.nav_content a{
+	color: #fff;
+	font-weight: bold;
+	height: 40px;
+}
+.nav_content a:hover{
+    text-decoration: none;color: #f9f603;
+}
+#content_left{
+	float: left;
+}
+.one{
+	height: 40px;
+	line-height: 40px;
+	padding-left: 43px;
+}
+.two{
+	border:1px solid #c9baa5;
+	background-image: url(../images/bg.png);
+	background-repeat: no-repeat;
+	margin-bottom: 20px;
+	margin-left: 43px;
+	width: 200px;
+}
+.three{
+	color: red;
+	list-style-image: url(../images/menubg.gif);
+}
+.four{
+	border:1px solid #c9baa5;
+	background-image: url(../images/bg.png);
+	background-repeat: no-repeat;
+	margin-bottom: 20px;
+	margin-left: 43px;
+	width: 200px;
+}
+#content_right{
+	float: left;
+}
+.five{
+	background-repeat: no-repeat;
+	background-image: url(../images/listtitle.png);
+	height: 40px;
+	width: 1000px;
+	margin-left: 20px;
+}
+.six{
+	font-size: 20px;
+	margin-left: 50px;
+	padding-top: 10px;
+	color: red;
+}
+input{
+	color: #522a06;
+}
+.seven{
+	margin-left: 250px;
+	margin-bottom: 20px;
+}
+#footer{
+    height: 105px;
+    clear: both;
+    background-image: url(../images/line.png);
+    text-align: center;
+}  
+.list li{
+    list-style-type: none;
+    display: inline;
+}
+.list a{
+    text-decoration: none;
+}
