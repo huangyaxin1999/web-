@@ -1,0 +1,135 @@
+body{
+	font-size: 12px;
+	font-family: Arial;
+	color:#522a06;
+	line-height: 2em;
+	margin:0 auto;
+}
+.head{ 
+	font-size: 60px;
+	color: white;
+	text-align: center;
+}
+.more{
+	display: block;
+	height: 25px;
+	width: 70px;
+	text-align: center;
+	border:1px solid black;
+	font-weight:2em;
+	font-weight:bolder;
+	font-size: 12px;
+	color: white;
+	text-decoration:none;
+	margin-top: 5px;
+}
+.mo{
+	display: block;
+	height: 30px;
+	width: 80px;
+	text-align: center;
+	border:1px solid black;
+	font-weight:2em;
+	font-weight:bolder;
+	font-size: 12px;
+	color: white;
+	text-decoration:none;
+	position:relative;
+	padding-top: 5px;
+	top:63%;
+	left:47.4%;
+}
+a.mo:link{
+	background-color:#55AA00;
+	font:white;
+}
+a.mo:hover{
+	background-color: white;
+	color: black;
+}
+a.more:link{
+	background-color:#55AA00;
+	font:white;
+}
+a.more:hover{
+	background-color: white;
+	color: black;
+}
+.wecome{
+	font-size:40px;
+	color:black;
+}
+.wenzi{
+	font-size:12px;
+}
+.logo{
+	font-famliy:Arial;
+	font-weight:14px;
+}
+#header{
+	background-image:url(images/logo.jpg);
+	background-repeat:no-repeat;
+	height:500px;
+}
+.menu{
+	color:#fff;
+	text-align:center;
+	width:1000px;
+	font-family:Arial;
+}
+.one{
+	color:#f9f603;
+	font-family:Arial;
+}
+a.one:link{
+	color:#f9f603;
+	font-weight:bolder;
+	line-height:40px;
+	text-decoration:none;
+}
+a.menu:link{
+	color:#fff;
+	font-weight:bolder;
+	line-height:40px;
+	text-decoration:none;
+}
+a.menu:visited{
+	color:#fff;
+}
+a.menu:hover{
+	color:#f9f603;
+	text-decoration:none;
+}
+a.footer:link{
+	font-size: 1.2em;
+	text-decoration:none;
+	color: white;
+}
+a.footer:visited{
+	font-size: 1.2em;
+	text-decoration:none;
+	color: white;
+}
+a.footer:hover{
+	font-size: 1.2em;
+	text-decoration:none;
+	color: #33CCFF;
+}
+a.footer:active{
+	font-size: 1.2em;
+	text-decoration:none;
+	color: #663300;
+}
+.p1{
+	color: white;
+}
+a.jingdian:link{
+	font-size: 1.2em;
+	text-decoration:none;
+	color:#00cc33;
+}
+a.jingdian:hover{
+	font-size: 1.2em;
+	text-decoration:none;
+	color: red;
+}
